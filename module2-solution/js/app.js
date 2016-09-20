@@ -41,6 +41,9 @@ function ShoppingListCheckOffService() {
 
   service.addToBuyItem("Lettuce", 1)
   service.addToBuyItem("Cheese", 1)
+  service.addToBuyItem("Bread", 2)
+  service.addToBuyItem("Ham", 10)
+  service.addToBuyItem("Oreos", 1000)
 
 
   service.buyItem = function (itemIndex) {
